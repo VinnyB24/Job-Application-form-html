@@ -1,0 +1,1557 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8" />
+    <title>Form Wizard | Skote - Responsive Bootstrap 4 Admin Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
+    <meta content="Themesbrand" name="author" />
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="assets_form/images/favicon.ico">
+
+    <!-- twitter-bootstrap-wizard css -->
+    <link rel="stylesheet" href="assets_form/libs/twitter-bootstrap-wizard/prettify.css">
+
+    <!-- Bootstrap Css -->
+    <link href="assets_form/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
+    <!-- Icons Css -->
+    <link href="assets_form/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <!-- App Css-->
+    <link href="assets_form/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body data-sidebar="dark">
+
+    <!-- Begin page -->
+    <div id="layout-wrapper">
+        <div class="main-content">
+            <div class="page-content">
+                <div class="container-fluid">
+                    <div class="row">
+
+                        <div class="col-lg-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <!-- <h4 class="card-title mb-4">Wizard with progressbar</h4> -->
+
+                                    <div id="progrss-wizard" class="twitter-bs-wizard">
+                                        <ul class="twitter-bs-wizard-nav nav-justified">
+                                            <li class="nav-item">
+                                                <a href="#progress-prosonalinfo" class="nav-link" data-toggle="tab">
+                                                    <span class="step-number mr-2">1</span>
+                                                    ข้อมูลส่วนตัว
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="#progress-education" class="nav-link" data-toggle="tab">
+                                                    <span class="step-number mr-2">2</span>
+                                                    การศึกษา
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="#progress-workex" class="nav-link" data-toggle="tab">
+                                                    <span class="step-number mr-2">3</span>
+                                                    การทำงาน
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="#progress-ability" class="nav-link" data-toggle="tab">
+                                                    <span class="step-number mr-2">4</span>
+                                                    ความสามารถ
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="#progress-training" class="nav-link" data-toggle="tab">
+                                                    <span class="step-number mr-2">5</span>
+                                                    การอมรม
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="#progress-reference" class="nav-link" data-toggle="tab">
+                                                    <span class="step-number mr-2">6</span>
+                                                    บุคคลอ้างอิง
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="#progress-precheck" class="nav-link" data-toggle="tab">
+                                                    <span class="step-number mr-2">7</span>
+                                                    ส่งข้อมูล
+                                                </a>
+                                            </li>
+                                        </ul>
+
+                                        <div id="bar" class="progress mt-4">
+                                            <div
+                                                class="progress-bar bg-success progress-bar-striped progress-bar-animated">
+                                            </div>
+                                        </div>
+                                        <div class="tab-content twitter-bs-wizard-tab-content">
+                                            <div class="tab-pane" id="progress-prosonalinfo">
+                                                <form>
+                                                    <div>
+
+                                                        <h3 class="heading-withline">ตำแหน่งงานที่สนใจ</h3>
+
+                                                        <div class="row">
+                                                            <div class="col-lg-6">
+                                                                <div class="form-group">
+                                                                    <label>ตำแหน่งงานที่สนใจ 1</label>
+                                                                    <input type="text" class="form-control"name="basicpill-Interest1-input"
+                                                                        placeholder="ตำแหน่งงาน1*"id="basicpill-Interest1-input" required>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-6">
+                                                                <div class="form-group">
+                                                                    <label>ตำแหน่งงานที่สนใจ 2</label>
+                                                                    <input type="text" class="form-control"name="basicpill-Interest2-input"
+                                                                        placeholder="ตำแหน่งงาน2*"id="basicpill-Interest2-input" required>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <h3 class="heading-withline">ข้อมูลส่วนตัว</h3>
+
+                                                    <div class="row">
+                                                        <div class="col-lg-6">
+                                                            <div class="form-group">
+                                                                <label>ชื่อ</label>
+                                                                <input type="text" class="form-control" name="Thainame"
+                                                                    placeholder="ชื่อ*" id="Thainame" required>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-6">
+                                                            <div class="form-group">
+                                                                <label>นามสกุล</label>
+                                                                <input type="text" class="form-control"
+                                                                    name="Thaisurname" placeholder="นามสกุล*"
+                                                                    id="Thaisurname" required>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="row">
+                                                        <div class="col-lg-6">
+                                                            <div class="form-group">
+                                                                <label>ชื่อ(อังกฤษ)</label>
+                                                                <input type="text" class="form-control" name="Engname"
+                                                                    placeholder="ชื่อ(อังกฤษ)*" id="Engname" required>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-6">
+                                                            <div class="form-group">
+                                                                <label>นามสกุล(อังกฤษ)</label>
+                                                                <input type="text" class="form-control"
+                                                                name="Engsurname" placeholder="นามสกุล(อังกฤษ)*"id="Engsurname" required>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="row">
+                                                        <div class="col-lg-6">
+                                                            <div class="form-group">
+                                                                <label>เงินเดือนที่ต้องการ</label>
+                                                                <input type="text" class="form-control"
+                                                                    name="Salary(want)"placeholder="เงินเดือนที่ต้องการ*" id="Salary(want)"required>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-6">
+                                                            <div class="form-group">
+                                                                <label>เลขบัตรประชาชน</label>
+                                                                <input type="number" class="form-control"
+                                                                    name="PersonalID" placeholder="เลขบัตรประชาชน*"id="PersonalID" required>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="row">
+                                                        <div class="col-lg-6">
+                                                            <label>ทราบข่าวสารรับสมัครจาก</label>
+                                                            <select class="custom-select"
+                                                                id="Knowform" name="Knowform">
+                                                                <option value="">กรุณาเลือก</option>
+                                                                <option value="www.jobth.com">www.jobth.com</option>
+                                                                <option value="www.jobthai.com">www.jobthai.com</option>
+                                                                <option value="www.jobopgun.com">www.jobopgun.com</option>
+                                                                <option value="www.jobdb.com">www.jobdb.com</option>
+                                                                <option value="www.jobbkk.com">www.jobbkk.com</option>
+                                                                <option value="งานนัดพบแรงงาน">งานนัดพบแรงงาน</option>
+                                                                <option value="เว็บสมัครงานจัสมิน">เว็บสมัครงานจัสมิน</option>
+                                                                <option value="มีผู้แนะนำ/เพื่อน/ญาติ">มีผู้แนะนำ/เพื่อน/ญาติ</option>
+                                                                <option value="Facebook">Facebook</option>
+                                                                <option value="ใบปลิว/ป้ายประกาศ">ใบปลิว/ป้ายประกาศ</option>
+                                                                <option value="เข้ามาสอบถามด้วยตนเอง">เข้ามาสอบถามด้วยตนเอง </option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="row">
+                                                        <div class="col-lg-12">
+                                                            <div class="form-group">
+                                                                <label>ที่อยู่ที่ติดต่อได้สะดวก</label>
+                                                                <textarea class="form-control" name="basicpill-address-input" 
+                                                                placeholder="ที่อยู่ที่ติดต่อได้สะดวก*"rows="5" id="basicpill-address-input"  required></textarea>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="row">
+                                                        <div class="col-lg-6">
+                                                            <div class="form-group">
+                                                                <label>เบอร์โทรศัพท์</label>
+                                                                <input type="number" class="form-control" name="Phonenumber"
+                                                                    placeholder="เบอร์โทรศัพท์*"id="Phonenumber" required>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-6">
+                                                            <div class="form-group">
+                                                                <label>อีเมล์(email)</label>
+                                                                <input type="email" class="form-control" name="basicpill-email-input"
+                                                                    placeholder="อีเมล์*" id="basicpill-email-input" required>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+
+
+                                                    <div class="row">
+                                                        <div class="col-lg-6">
+                                                            <div class="form-group">
+                                                                <label>วัน/เดือน/ปีเกิด</label>
+                                                                <input type="date" class="form-control" name="DateOfBirth"
+                                                                    placeholder="วัน/เดือน/ปีเกิด*"id="DateOfBirth" required>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-6">
+                                                            <div class="form-group">
+                                                                <label>ศาสนา</label>
+                                                                <input type="text" class="form-control" name="Religion"
+                                                                    placeholder="ศาสนา*" id="Religion" required>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-lg-6">
+                                                            <div class="form-group">
+                                                                <label>เชื้อชาติ</label>
+                                                                <input type="text" class="form-control" name="Ethnicity"
+                                                                    placeholder="เชื้อชาติ*"id="Ethnicity" required>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-6">
+                                                            <div class="form-group">
+                                                                <label>สัญชาติ</label>
+                                                                <input type="text" class="form-control" name="Nationality"
+                                                                    placeholder="สัญชาติ*" id="Nationality" required>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-lg-6">
+                                                            <div class="form-group">
+                                                                <label>น้ำหนัก</label>
+                                                                <input type="number" class="form-control" name="basicpill-Weight-input"
+                                                                    placeholder="น้ำหนัก(kg)*"id="basicpill-Weight-input" required>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-6">
+                                                            <div class="form-group">
+                                                                <label>ส่วนสูง</label>
+                                                                <input type="number" class="form-control" name="basicpill-Height-input"
+                                                                    placeholder="ส่วนสูง(cm)*" id="basicpill-Height-input " required>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-lg-6">
+                                                            <div class="form-group">
+                                                                <label>จำนวนพี่น้อง</label>
+                                                                <input type="number" class="form-control" name="Sibling"
+                                                                    placeholder="จำนวนพี่น้อง*"id="Sibling" required>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-6">
+                                                            <div class="form-group">
+                                                                <label>จำนวนบุตร</label>
+                                                                <input type="email" class="form-control" name="Child"
+                                                                    placeholder="จำนวนบุตร*" id="Child" required>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-lg-6">
+                                                            <label>สถานภาพสมรส</label>
+                                                            <select class="custom-select"
+                                                                id="Status" name="Status">
+                                                                <option value="">กรุณาเลือก</option>
+                                                                <option value="Single">โสด</option>
+                                                                <option value="Married">สมรส</option>
+                                                                <option value="Divorce">หย่าร้าง</option>                                                              
+                                                            </select>
+                                                        </div>
+                                                    </div>
+
+                                                    <h3 class="heading-withline">ข้อมูลบิดา/มารดา</h3>
+
+                                                    <div class="row">
+                                                        <div class="col-lg-6">
+                                                            <div class="form-group">
+                                                                <label>ชื่อบิดา</label>
+                                                                <input type="text" class="form-control" name="Dadname"
+                                                                    placeholder="ชื่อบิดา*" id="Dadname" required>
+                                                            </div>
+                                                        </div>
+                                                         <div class="col-lg-6">
+                                                            <label>สถานภาพ</label>
+                                                            <select class="custom-select"
+                                                                id="DadStat" name="DadStat">
+                                                                <option value="">กรุณาเลือก</option>
+                                                                <option value="Alive">มีชีวิตอยู่</option>
+                                                                <option value="DEAD">มรณะ</option>                                                             
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-lg-6">
+                                                            <div class="form-group">
+                                                                <label>อายุ</label>
+                                                                <input type="number" class="form-control" name="DadAged"
+                                                                    placeholder="อายุ*" id="DadAged" required>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="row">
+                                                        <div class="col-lg-6">
+                                                            <div class="form-group">
+                                                                <label>ชื่อมารดา</label>
+                                                                <input type="text" class="form-control" name="Momname"
+                                                                    placeholder="ชื่อมารดา*" id="Momname" required>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-6">
+                                                            <label>สถานภาพ</label>
+                                                            <select class="custom-select"
+                                                                id="MomStat" name="MomStat" required>
+                                                                <option value="">กรุณาเลือก</option>
+                                                                <option value="Alive">มีชีวิตอยู่</option>
+                                                                <option value="DEAD">มรณะ</option>                                                             
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-lg-6">
+                                                            <div class="form-group">
+                                                                <label>อายุ</label>
+                                                                <input type="number" class="form-control" name="MomAged"
+                                                                    placeholder="อายุ*" id="MomAged" required>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </form>
+                                            </div>
+                                            <div class="tab-pane" id="progress-education">
+                                                <div>
+                                                    <form>
+                                                        <div _ngcontent -ngx-c80 class="row align-items-center ng-star-inserted" style="padding-bottom: 1%">
+                                                            <div _ngcontent-ngx-c80 class="col-8">
+                                                                <h3 _ngcontent-ngx-c80 class="text-left">ประวัติการศึกษา
+                                                                    <small _ngcontent-ngx-c80 class="text-muted">ระบุประวัติการศึกษา 2 ระดับที่สูงที่สุด</small>
+                                                                </h3>
+                                                            </div>
+
+                                                            <div _ngcontent-ngx-c80 class="col-md-4 text-right">
+                                                                <small _ngcontent-ngx-c80 class="text-muted">
+                                                                    <button type="button" class="btn btn-success">+ เพิ่มรายการ</button>
+                                                                </small>
+                                                            </div>
+
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-lg-6">
+                                                                <label>วุฒิการศึกษา</label>
+                                                                <select class="custom-select"
+                                                                    id="Education" name="Education" required>
+                                                                    <option value="">กรุณาเลือก</option>
+                                                                    <option value="Ph.D.">ปริญญาเอก</option>
+                                                                    <option value="MasterDegree">ปริญญาโท</option>
+                                                                    <option value="BanchelorDegree">ปริญญาตี</option>
+                                                                    <option value="HVC">ปวส.</option>
+                                                                    <option value="VC">ปวช.</option>
+                                                                    <option value="HighSchool">มัธยมศึกษา ม.6</option>
+                                                                    <option value="MiddleSchool">มัธยมศึกษา ม.3</option>
+                                                                    <option value="PrimarySchool">ประถมศึกษา</option>
+                                                                    <option value="Else">ไม่ระบุ</option>                                                                   
+                                                                </select>
+                                                            </div>
+
+                                                            <div class="col-lg-6">
+                                                                <div class="form-group">
+                                                                    <label for="basicpill-vatno-input">สถาบันการศึกษา</label>
+                                                                    <input type="text" class="form-control" name="Intitute"
+                                                                     placeholder="สถาบันการศึกษา*"  id="Intitute" required>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-lg-3">
+                                                                <div class="form-group">
+                                                                    <label for="basicpill-cstno-input">สาขาวิชาเอก</label>
+                                                                    <input type="text" class="form-control" name="basicpill-Major-input"
+                                                                     placeholder="สาขาวิชาเอง*"  id="basicpill-Major-input" required>
+                                                                </div>
+                                                            </div>
+                                                                <div class="col-lg-3">
+                                                                    <div class="form-group">
+                                                                        <label for="basicpill-vatno-input">ปีที่เข้า</label>
+                                                                        <input type="date" class="form-control" name="START"
+                                                                         placeholder="ปีที่่เข้าศึกษา*"  id="START" required>
+                                                                    </div>
+                                                                </div>
+    
+                                                                <div class="col-lg-3">
+                                                                    <div class="form-group">
+                                                                        <label for="basicpill-vatno-input">ปีที่จบ</label>
+                                                                        <input type="date" class="form-control" name="Graduation"
+                                                                         placeholder="ปีที่่จบการศึกษา*"  id="Graduation" required>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-3">
+                                                                    <div class="form-group">
+                                                                        <label for="basicpill-vatno-input">เกรดเฉลี่ย</label>
+                                                                        <input type="number" class="form-control" name="GPA"
+                                                                         placeholder="ปีที่่จบการศึกษา*"  id="GPA" required>
+                                                                    </div>
+                                                                </div>                                                                
+                                                                                                                      
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="progress-workex">
+                                                <div>
+                                                    <form>
+                                                        <div _ngcontent -ngx-c80 class="row align-items-center ng-star-inserted" style="padding-bottom: 1%">
+                                                            <div _ngcontent-ngx-c80 class="col-8">
+                                                                <h3 _ngcontent-ngx-c80 class="text-left">ประวัติการทำงาน/ฝึกงาน
+                                                                    <small _ngcontent-ngx-c80 class="text-muted">หากมีประสบการณ์กรุณากรอก 3 ที่ล่าสุด</small>
+                                                                </h3>
+                                                            </div>
+                                                            
+                                                            <div _ngcontent-ngx-c80 class="col-md-4 text-right">
+                                                                <small _ngcontent-ngx-c80 class="text-muted">
+                                                                    <button type="button" class="btn btn-success">+ เพิ่มรายการ</button>
+                                                                </small>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-lg-12">
+                                                                <div class="form-group">
+                                                                    <label for="basicpill-namecard-input">บริษัท/หน่วยงาน</label>
+                                                                    <input type="text" class="form-control" name="Companies"
+                                                                     placeholder="บริษัท/หน่วยงาน*"   id="Companies" required>
+                                                                </div>
+                                                            </div>                                                           
+                                                        </div>
+
+                                                        <div class="row">
+                                                            <div class="col-lg-6">
+                                                                <div class="form-group">
+                                                                    <label for="basicpill-cardno-input">ตำแหน่งเริ่มต้น</label>
+                                                                    <input type="text" class="form-control" name="StarterRole"
+                                                                     placeholder="ตำแหน่งเริ่มต้น*"   id="StarterRole" required>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-lg-6">
+                                                                <div class="form-group">
+                                                                    <label for="basicpill-card-verification-input">ตำแหน่งสุดท้าย</label>
+                                                                    <input type="text" class="form-control" name="LastRolde"
+                                                                     placeholder="ตำแหน่งสุดท้าย*"   id="LastRole" required>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-lg-6">
+                                                                <div class="form-group">
+                                                                    <label for="basicpill-cardno-input">เงินเดือนเริ่มต้น</label>
+                                                                    <input type="number" class="form-control" name="StarterSalary"
+                                                                     placeholder="เงินเดือนเริ่มต้น*"   id="StarterSalary" required>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-lg-6">
+                                                                <div class="form-group">
+                                                                    <label for="basicpill-card-verification-input">เงินเดือนสุดท้าย</label>
+                                                                    <input type="number" class="form-control" name="LastSalary"
+                                                                     placeholder="เงินเดือนสุดท้าย*"   id="LastSalary" required>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-lg-6">
+                                                                <div class="form-group">
+                                                                    <label for="basicpill-cardno-input">วันเริ่มงาน</label>
+                                                                    <input type="date" class="form-control" name="StarterDate"
+                                                                     placeholder=""   id="basicpill-cardno-input" required>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-lg-6">
+                                                                <div class="form-group">
+                                                                    <label for="basicpill-card-verification-input">วันออกงาน</label>
+                                                                    <input type="date" class="form-control" name="EndDate"
+                                                                     placeholder=""   id="basicpill-card-verification-input">
+                                                                </div>
+                                                            </div>                                                           
+                                                        </div>
+                                                        <div class="row">    
+                                                            <div class="col-lg-6">
+                                                             <label>ยังทำงานอยู่ไหม</label>
+                                                             <select class="custom-select"
+                                                                id="OnorOut" name="OnorOut" required>
+                                                                <option value="">กรุณาเลือก</option>
+                                                                <option value="Ph.D.">ยังทำอยู่</option>
+                                                                <option value="Ph.D.">ออกแล้ว</option>                                                                                                                                     
+                                                            </select>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="row">
+                                                            <div class="col-lg-12">
+                                                                <div class="form-group">
+                                                                    <label>หน้าที่ความรับผิดชอบ</label>
+                                                                    <textarea class="form-control" name="Responsibility" 
+                                                                    placeholder="หน้าที่ความรับผิดชอบ*"rows="3" id="Responsibility"  required></textarea>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-lg-6">
+                                                                <div class="form-group">
+                                                                    <label for="basicpill-cardno-input">เหตุผลที่ออก</label>
+                                                                    <input type="Text" class="form-control" name="QuitReason"
+                                                                     placeholder="เหตุผลที่ออก*"   id="QuitReason" required>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-lg-6">
+                                                                <div class="form-group">
+                                                                    <label for="basicpill-card-verification-input">โทรศัพท์ที่ทำงานเก่า</label>
+                                                                    <input type="number" class="form-control" name="ExCTELE"
+                                                                     placeholder="โทรศัพท์ที่ทำงานเก่า*"   id="ExCTELE" required>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="progress-ability">
+                                                <div>
+                                                    <form>
+                                                        <h3 class="heading-withline">ความสามารถเพิ่มเติม</h3>
+                                                        <div class="row">
+                                                            <div class="col-lg-6">
+                                                                <div class="form-group">
+                                                                    <label>ความสามารถทางคอมพิวเตอร์</label>
+                                                                    <textarea id="ability-computer-input" class="form-control" rows="5"
+                                                                    name="ability-computer-input" placeholder="ความสามารถทางคอมพิวเตอร์*" required></textarea>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-6">
+                                                                <div class="form-group">
+                                                                    <label>ความสามารถด้านอื่นๆ</label>
+                                                                    <textarea id="ability-other-input"class="form-control" rows="5"
+                                                                    name="ability-other-input" placeholder="ความสามารถด้านอื่นๆ*" required></textarea>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-6">
+
+                                                                <div class="form-group">
+                                                                    <label>ความสามารถทางภาษาอังกฤษ</label>
+                                                                    <select class="custom-select"
+                                                                        id="ability-english-input" name="ability-english-input" required>
+                                                                        <option value="">กรุณาเลือก</option>
+                                                                        <option value="พอใช้">พอใช้</option>
+                                                                        <option value="ดี">ดี</option>
+                                                                        <option value="ดีมาก">ดีมาก</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-6">
+                                                                <div class="form-group">
+                                                                    <label>ความสามารถทางภาษาอื่นๆ</label>
+                                                                    <textarea id="ability-otherlang-input"class="form-control" rows="3"
+                                                                    name="ability-otherlang-input" placeholder="ความสามารถทางภาษาอื่นๆ*" required></textarea>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        
+
+
+                                                        <div class="row">
+                                                            <div class="col-lg-6">
+                                                                <div class="form-group">
+                                                                    <label>ปฏิบัติงานต่างจังหวัดเป็นครั้งคราวได้หรือไม่</label>
+                                                                    <select class="custom-select"
+                                                                        id="ADD1" name="ADD1" required>
+                                                                        <option value="">กรุณาเลือก</option>
+                                                                        <option value="สามารถปฏิบัติงานต่างจังหวัดได้">ได้</option>
+                                                                        <option value="ไม่สามารถปฏิบัติงานต่างจังหวัดได้">ไม่ได้</option>                                                                       
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-6">
+                                                                <div class="form-group">
+                                                                    <label>ความสามารถด้านการขับขี่</label>
+                                                                    <select class="custom-select"
+                                                                        id="ADD2" name="ADD2" required>
+                                                                        <option value="">กรุณาเลือก</option>
+                                                                        <option value="รถมอเตอร์ไซค์">รถมอเตอร์ไซค์</option>
+                                                                        <option value="รถยนต์">รถยนต์</option>
+                                                                        <option value="ไม่มีใบขับขี่">ไม่มีใบขับขี่</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                    <div class="row">
+                                                        <div class="col-lg-6">
+                                                            <div class="form-group">
+                                                                    <label _ngcontent-fcq-c80 class="car-margin">คุณมีโรคประจำตัวหรือไม่</label><br>
+                                                                    <div class="form-check form-check-inline">
+                                                                        <input class="form-check-input" type="checkbox" id="yes1" name="yes1" value="option1" style="margin-left: 1rem;">
+                                                                        <label class="form-check-label" for="inlineCheckbox1">มี (โปรดระบุ)</label>
+                                                                    </div>
+                                                                    <div class="form-check form-check-inline">
+                                                                        <input class="form-check-input" type="checkbox" id="no1" name="no1" value="option2">
+                                                                        <label class="form-check-label" for="inlineCheckbox2">ไม่มี</label>
+                                                                    </div>                                     
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-6">
+                                                            <div class="form-group">
+                                                                <textarea id="adhd1" class="form-control" rows="2"
+                                                                name="adhd1" placeholder="รายระเอียด*" required></textarea>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-lg-6">
+                                                            <div class="form-group">
+                                                                    <label _ngcontent-fcq-c80 class="car-margin">คุณเคยทำผิดกฎหมาย/มีประวัติทำผิดกฎหมายหรือไม่</label><br>
+                                                                    <div class="form-check form-check-inline">
+                                                                        <input class="form-check-input" type="checkbox" id="yes2" name="yes2" value="option1" style="margin-left: 1rem;">
+                                                                        <label class="form-check-label" for="inlineCheckbox1">เคย (โปรดระบุ)</label>
+                                                                    </div>
+                                                                    <div class="form-check form-check-inline">
+                                                                        <input class="form-check-input" type="checkbox" id="no2" name="no2" value="option2">
+                                                                        <label class="form-check-label" for="inlineCheckbox2">ไม่เคย</label>
+                                                                    </div>                                     
+                                                            </div>
+                                                         </div>
+                                                        <div class="col-lg-6">
+                                                            <div class="form-group">
+                                                                <textarea id="adhd2" class="form-control" rows="2"
+                                                                name="adhd2" placeholder="รายระเอียด*" required></textarea>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="row">
+                                                        <div class="col-lg-6">
+                                                            <div class="form-group">
+                                                                    <label _ngcontent-fcq-c80 class="car-margin">คุณเคยเสพยาเสพติดหรือยุ่งเกี่ยวกับยาเสพติดให้โทษหรือไม่</label><br>
+                                                                    <div class="form-check form-check-inline">
+                                                                        <input class="form-check-input" type="checkbox" id="yes3" name="yes3" value="option1" style="margin-left: 1rem;">
+                                                                        <label class="form-check-label" for="inlineCheckbox1">เคย (โปรดระบุ)</label>
+                                                                    </div>
+                                                                    <div class="form-check form-check-inline">
+                                                                        <input class="form-check-input" type="checkbox" id="no3" name="no3" value="option2">
+                                                                        <label class="form-check-label" for="inlineCheckbox2">ไม่เคย</label>
+                                                                    </div>                                     
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-6">
+                                                            <div class="form-group">
+                                                                <textarea id="adhd3" class="form-control" rows="2"
+                                                                name="adhd3" placeholder="รายระเอียด*" required></textarea>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="row">
+                                                        <div class="col-lg-6">
+                                                            <div class="form-group">
+                                                                    <label _ngcontent-fcq-c80 class="car-margin">คุณเคยเป็นพนักงานของ Jasmine Group/TT&T/Mono หรือไม่</label><br>
+                                                                    <div class="form-check form-check-inline">
+                                                                        <input class="form-check-input" type="checkbox" id="yes4" name="yes4" value="option1" style="margin-left: 1rem;">
+                                                                        <label class="form-check-label" for="inlineCheckbox1">เคย (โปรดระบุ)</label>
+                                                                    </div>
+                                                                    <div class="form-check form-check-inline">
+                                                                        <input class="form-check-input" type="checkbox" id="no4" name="no4" value="option2">
+                                                                        <label class="form-check-label" for="inlineCheckbox2">ไม่เคย</label>
+                                                                    </div>                                     
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-2">
+                                                            <div class="form-group">
+                                                                <div class="form-check form-check-inline">
+                                                                    <input class="form-check-input" type="checkbox" id="Jas01" name="Jas01" value="option2">
+                                                                    <label class="form-check-label" for="inlineCheckbox2">Jasmine Group</label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-2">
+                                                            <div class="form-group">
+                                                                <div class="form-check form-check-inline">
+                                                                    <input class="form-check-input" type="checkbox" id="TT01" name="TT01" value="option2">
+                                                                    <label class="form-check-label" for="inlineCheckbox2">TT&T</label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-2">
+                                                            <div class="form-group">
+                                                                <div class="form-check form-check-inline">
+                                                                    <input class="form-check-input" type="checkbox" id="Mono01" name="Mono01" value="option2">
+                                                                    <label class="form-check-label" for="inlineCheckbox2">Mono</label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="row">
+                                                        <div class="col-lg-6">
+                                                            <div class="form-group">
+                                                                    <label _ngcontent-fcq-c80 class="car-margin">คุณรู้จักใครที่ทำงานใน Jasmine Group หรือไม่</label><br>
+                                                                    <div class="form-check form-check-inline">
+                                                                        <input class="form-check-input" type="checkbox" id="yes5" name="yes5" value="option1" style="margin-left: 1rem;">
+                                                                        <label class="form-check-label" for="inlineCheckbox1">มี (โปรดระบุ)</label>
+                                                                    </div>
+                                                                    <div class="form-check form-check-inline">
+                                                                        <input class="form-check-input" type="checkbox" id="no5" name="no5" value="option2">
+                                                                        <label class="form-check-label" for="inlineCheckbox2">ไม่มี</label>
+                                                                    </div>                                     
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-6">
+                                                            <div class="form-group">
+                                                                <input type="text" class="form-control" name="dudename"
+                                                                     placeholder="ชื่่อ*"   id="dudename"><br>
+                                                                <input type="text" class="form-control" name="dudesurname"
+                                                                     placeholder="นามสกุล*"   id="dudesurname"><br>
+                                                                <input type="text" class="form-control" name="dudejob"
+                                                                     placeholder="ตำแหน่ง*"   id="dudejob">     
+                                                                     
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                        
+
+                                                        
+
+                                                    </form>
+                                                </div>
+                                            </div>                                          
+                                            <div class="tab-pane" id="progress-training">
+                                                <div>
+                                                    <form>
+                                                        <div _ngcontent -ngx-c80 class="row align-items-center ng-star-inserted" style="padding-bottom: 1%">
+                                                            <div _ngcontent-ngx-c80 class="col-8">
+                                                                <h3 _ngcontent-ngx-c80 class="text-left">ประวัติการอบรม
+                                                                    <small _ngcontent-ngx-c80 class="text-muted">ระบุประวัติการอบรมได้สูงสุด 5 ลำดับ</small>
+                                                                </h3>
+                                                            </div>
+                                                            
+                                                            <div _ngcontent-ngx-c80 class="col-md-4 text-right">
+                                                                <small _ngcontent-ngx-c80 class="text-muted">
+                                                                    <button type="button" class="btn btn-success">+ เพิ่มรายการ</button>
+                                                                </small>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-lg-12">
+                                                                <div class="form-group">
+                                                                    <label for="basicpill-namecard-input">บริษัท/หน่วยงาน</label>
+                                                                    <input type="text" class="form-control" name="Companies"
+                                                                     placeholder="บริษัท/หน่วยงาน*"   id="Companies" required>
+                                                                </div>
+                                                            </div>                                                           
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-lg-12">
+                                                                <div class="form-group">
+                                                                    <label for="basicpill-namecard-input">ชื่อหลักสูตร</label>
+                                                                    <input type="text" class="form-control" name="basicpill-Traning-input"
+                                                                      placeholder="ชื่อหลักสูตร*"  id="basicpill-Traning-input">
+                                                                </div>
+                                                            </div>                                                            
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-lg-6">
+                                                                <div class="form-group">
+                                                                    <label for="basicpill-cstno-input">สถาบันที่จัด</label>
+                                                                    <input type="text" class="form-control" name="basicpill-Intitute-input"
+                                                                     placeholder="สถาบันที่จัด*"  id="basicpill-Intitute-input" required>
+                                                                </div>
+                                                            </div>
+
+                                                            
+                                                                <div class="col-lg-3">
+                                                                    <div class="form-group">
+                                                                        <label for="basicpill-vatno-input">ปีที่เข้ารับอบรม</label>
+                                                                        <input type="date" class="form-control" name="TraningStart"
+                                                                         placeholder="ปีที่เข้ารับอบรม*"  id="TraningStart" required>
+                                                                    </div>
+                                                                </div>
+    
+                                                                <div class="col-lg-3">
+                                                                    <div class="form-group">
+                                                                        <label for="basicpill-vatno-input">จำนวนวัน</label>
+                                                                        <input type="number" class="form-control" name="ManyDay"
+                                                                         placeholder="จำนวนวัน*"  id="ManyDay" required>
+                                                                    </div>
+                                                                </div>                                                               
+                                                                                                                       
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="progress-reference">
+                                                <div>
+                                                    <form>
+                                                        <div _ngcontent -ngx-c80 class="row align-items-center ng-star-inserted" style="padding-bottom: 1%">
+                                                            <div _ngcontent-ngx-c80 class="col-8">
+                                                                <h3 _ngcontent-ngx-c80 class="text-left">บุคคลอ้างอิง
+                                                                    <small _ngcontent-ngx-c80 class="text-muted">ระบุบุคคลอ้างอิงได้สูงสุด 2 ลำดับ</small>
+                                                                </h3>
+                                                            </div>
+                                                            
+                                                            <div _ngcontent-ngx-c80 class="col-md-4 text-right">
+                                                                <small _ngcontent-ngx-c80 class="text-muted">
+                                                                    <button type="button" class="btn btn-success">+ เพิ่มรายการ</button>
+                                                                </small>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-lg-12">
+                                                                <div class="form-group">
+                                                                    <label for="basicpill-namecard-input">ชื่อ-นามสกุล บุคคลอ้างอิง</label>
+                                                                    <input type="text" class="form-control" name="SomeDudeNameSurName"
+                                                                     placeholder="ชื่อ-นามสกุล บุคคลอ้างอิง*"   id="SomeDudeNameSurName"required>
+                                                                </div>
+                                                            </div>                                                           
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-lg-6">
+                                                                <div class="form-group">
+                                                                    <label for="basicpill-cardno-input">อาชีพ</label>
+                                                                    <input type="text" class="form-control" name="SomeDudeJob"
+                                                                     placeholder="อาชีพ บุคคลอ้างอิง*"   id="SomeDudeJob"required>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-lg-6">
+                                                                <div class="form-group">
+                                                                    <label for="basicpill-card-verification-input">เบอร์โทรศัพท์</label>
+                                                                    <input type="number" class="form-control" name="SomeDudeTele"
+                                                                     placeholder="เบอร์โทรศัพท์*"   id="SomeDudeTele"required>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-lg-12">
+                                                                <div class="form-group">
+                                                                    <label>สถานที่ทำงานของบุคคลอ้างอิง</label>
+                                                                    <textarea class="form-control" name="LocateOfSomeDude" 
+                                                                    placeholder="สถานที่ทำงานของบุคคลอ้างอิง*"rows="3" id="LocateOfSomeDude"  required></textarea>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="progress-precheck">
+                                                <div>
+                                                    <form>
+                                                        <h3 class="heading-withline">ตำแหน่งงานที่สนใจ</h3>
+                                                        <div _ngcontent-ueg-c80 class="row">
+                                                            <div _ngcontent-ueg-c80 class="col-lg-6 col-md-6 col-sm-6">
+                                                                <div _ngcontent-ueg-c80 class="row">
+                                                                    <div _ngcontent-ueg-c8- class="col-lg-4 col-md-4 col-sm-4 ">
+                                                                        <h5 _ngcontent-ueg-c80>ตำแหน่งงาน 1</h5>
+                                                                    </div>
+                                                                    <div _ngcontent-ueg-c80 class="col-lg-8 col-md-8 col-sm-8 text-left"> Senior Engineer </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div _ngcontent-ueg-c80 class="row">
+                                                            <div _ngcontent-ueg-c80 class="col-lg-6 col-md-6 col-sm-6">
+                                                                <div _ngcontent-ueg-c80 class="row">
+                                                                    <div _ngcontent-ueg-c8- class="col-lg-4 col-md-4 col-sm-4 ">
+                                                                        <h5 _ngcontent-ueg-c80>ตำแหน่งงาน 2</h5>
+                                                                    </div>
+                                                                    <div _ngcontent-ueg-c80 class="col-lg-8 col-md-8 col-sm-8 text-left"> Chief Department </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <h1 class="heading-withline"></h1>
+                                                        <h3 class="heading-withline">ข้อมูลส่วนตัว</h3>
+
+                                                        <div _ngcontent-ueg-c80 class="row">
+                                                            <div _ngcontent-ueg-c80 class="col-lg-6 col-md-6 col-sm-6">
+                                                                <div _ngcontent-ueg-c80 class="row">
+                                                                    <div _ngcontent-ueg-c8- class="col-lg-4 col-md-4 col-sm-4 ">
+                                                                        <h5 _ngcontent-ueg-c80>ชื่อ (ไทย)</h5> 
+                                                                    </div>
+                                                                    <div _ngcontent-ueg-c80 class="col-lg-8 col-md-8 col-sm-8 text-left"> ปาริฉัตร อิอิ </div>
+                                                                </div>
+                                                            </div>
+                                                            <div _ngcontent-ueg-c80 class="col-lg-6 col-md-6 col-sm-6">
+                                                                <div _ngcontent-ueg-c80 class="row">
+                                                                    <div _ngcontent-ueg-c8- class="col-lg-4 col-md-4 col-sm-4 ">
+                                                                        <h5 _ngcontent-ueg-c80>ชื่อ (อังกฤษ)</h5>
+                                                                    </div>
+                                                                    <div _ngcontent-ueg-c80 class="col-lg-8 col-md-8 col-sm-8 text-left"> prichart eiei </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div _ngcontent-ueg-c80 class="row">
+                                                            <div _ngcontent-ueg-c80 class="col-lg-6 col-md-6 col-sm-6">
+                                                                <div _ngcontent-ueg-c80 class="row">
+                                                                    <div _ngcontent-ueg-c8- class="col-lg-4 col-md-4 col-sm-4 ">
+                                                                        <h5 _ngcontent-ueg-c80>หมายเลขบัตรประชาชน</h5> 
+                                                                    </div>
+                                                                    <div _ngcontent-ueg-c80 class="col-lg-8 col-md-8 col-sm-8 text-left"> 1451155623563 </div>
+                                                                </div>
+                                                            </div>
+                                                            <div _ngcontent-ueg-c80 class="col-lg-6 col-md-6 col-sm-6">
+                                                                <div _ngcontent-ueg-c80 class="row">
+                                                                    <div _ngcontent-ueg-c8- class="col-lg-4 col-md-4 col-sm-4 ">
+                                                                        <h5 _ngcontent-ueg-c80>ที่อยู่</h5>
+                                                                    </div>
+                                                                    <div _ngcontent-ueg-c80 class="col-lg-8 col-md-8 col-sm-8 text-left"> 204/129 wallstreet moo.1 nonthaburi </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                            
+                                                        <div _ngcontent-ueg-c80 class="row">
+                                                            <div _ngcontent-ueg-c80 class="col-lg-6 col-md-6 col-sm-6">
+                                                                <div _ngcontent-ueg-c80 class="row">
+                                                                    <div _ngcontent-ueg-c8- class="col-lg-4 col-md-4 col-sm-4 ">
+                                                                        <h5 _ngcontent-ueg-c80>เบอร์โทรศัพท์</h5> 
+                                                                    </div>
+                                                                    <div _ngcontent-ueg-c80 class="col-lg-8 col-md-8 col-sm-8 text-left"> 0981058005 </div>
+                                                                </div>
+                                                            </div>
+                                                            <div _ngcontent-ueg-c80 class="col-lg-6 col-md-6 col-sm-6">
+                                                                <div _ngcontent-ueg-c80 class="row">
+                                                                    <div _ngcontent-ueg-c8- class="col-lg-4 col-md-4 col-sm-4 ">
+                                                                        <h5 _ngcontent-ueg-c80>อีเมล์</h5>
+                                                                    </div>
+                                                                    <div _ngcontent-ueg-c80 class="col-lg-8 col-md-8 col-sm-8 text-left"> OPZTV@GMAIL.COM </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div _ngcontent-ueg-c80 class="row">
+                                                            <div _ngcontent-ueg-c80 class="col-lg-6 col-md-6 col-sm-6">
+                                                                <div _ngcontent-ueg-c80 class="row">
+                                                                    <div _ngcontent-ueg-c8- class="col-lg-4 col-md-4 col-sm-4 ">
+                                                                        <h5 _ngcontent-ueg-c80>วันเกิด</h5> 
+                                                                    </div>
+                                                                    <div _ngcontent-ueg-c80 class="col-lg-8 col-md-8 col-sm-8 text-left"> 17/08/2022 </div>
+                                                                </div>
+                                                            </div>
+                                                            <div _ngcontent-ueg-c80 class="col-lg-6 col-md-6 col-sm-6">
+                                                                <div _ngcontent-ueg-c80 class="row">
+                                                                    <div _ngcontent-ueg-c8- class="col-lg-4 col-md-4 col-sm-4 ">
+                                                                        <h5 _ngcontent-ueg-c80>ศาสนา</h5>
+                                                                    </div>
+                                                                    <div _ngcontent-ueg-c80 class="col-lg-8 col-md-8 col-sm-8 text-left"> มูเตลู </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div _ngcontent-ueg-c80 class="row">
+                                                            <div _ngcontent-ueg-c80 class="col-lg-6 col-md-6 col-sm-6">
+                                                                <div _ngcontent-ueg-c80 class="row">
+                                                                    <div _ngcontent-ueg-c8- class="col-lg-4 col-md-4 col-sm-4 ">
+                                                                        <h5 _ngcontent-ueg-c80>เชื้อชาติ</h5> 
+                                                                    </div>
+                                                                    <div _ngcontent-ueg-c80 class="col-lg-8 col-md-8 col-sm-8 text-left"> ไทย </div>
+                                                                </div>
+                                                            </div>
+                                                            <div _ngcontent-ueg-c80 class="col-lg-6 col-md-6 col-sm-6">
+                                                                <div _ngcontent-ueg-c80 class="row">
+                                                                    <div _ngcontent-ueg-c8- class="col-lg-4 col-md-4 col-sm-4 ">
+                                                                        <h5 _ngcontent-ueg-c80>สัญชาติ</h5>
+                                                                    </div>
+                                                                    <div _ngcontent-ueg-c80 class="col-lg-8 col-md-8 col-sm-8 text-left"> ไทย </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div _ngcontent-ueg-c80 class="row">
+                                                            <div _ngcontent-ueg-c80 class="col-lg-6 col-md-6 col-sm-6">
+                                                                <div _ngcontent-ueg-c80 class="row">
+                                                                    <div _ngcontent-ueg-c8- class="col-lg-4 col-md-4 col-sm-4 ">
+                                                                        <h5 _ngcontent-ueg-c80>น้ำหนัก</h5> 
+                                                                    </div>
+                                                                    <div _ngcontent-ueg-c80 class="col-lg-8 col-md-8 col-sm-8 text-left"> 57 </div>
+                                                                </div>
+                                                            </div>
+                                                            <div _ngcontent-ueg-c80 class="col-lg-6 col-md-6 col-sm-6">
+                                                                <div _ngcontent-ueg-c80 class="row">
+                                                                    <div _ngcontent-ueg-c8- class="col-lg-4 col-md-4 col-sm-4 ">
+                                                                        <h5 _ngcontent-ueg-c80>ส่วนสูง</h5>
+                                                                    </div>
+                                                                    <div _ngcontent-ueg-c80 class="col-lg-8 col-md-8 col-sm-8 text-left"> 175 </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div _ngcontent-ueg-c80 class="row">
+                                                            <div _ngcontent-ueg-c80 class="col-lg-6 col-md-6 col-sm-6">
+                                                                <div _ngcontent-ueg-c80 class="row">
+                                                                    <div _ngcontent-ueg-c8- class="col-lg-4 col-md-4 col-sm-4 ">
+                                                                        <h5 _ngcontent-ueg-c80>จำนวนพี่น้องทั้งสิ้น</h5> 
+                                                                    </div>
+                                                                    <div _ngcontent-ueg-c80 class="col-lg-8 col-md-8 col-sm-8 text-left"> 2 </div>
+                                                                </div>
+                                                            </div>
+                                                            <div _ngcontent-ueg-c80 class="col-lg-6 col-md-6 col-sm-6">
+                                                                <div _ngcontent-ueg-c80 class="row">
+                                                                    <div _ngcontent-ueg-c8- class="col-lg-4 col-md-4 col-sm-4 ">
+                                                                        <h5 _ngcontent-ueg-c80>จำนวนบุตร</h5>
+                                                                    </div>
+                                                                    <div _ngcontent-ueg-c80 class="col-lg-8 col-md-8 col-sm-8 text-left"> 0 </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div _ngcontent-ueg-c80 class="row">
+                                                            <div _ngcontent-ueg-c80 class="col-lg-6 col-md-6 col-sm-6">
+                                                                <div _ngcontent-ueg-c80 class="row">
+                                                                    <div _ngcontent-ueg-c8- class="col-lg-4 col-md-4 col-sm-4 ">
+                                                                        <h5 _ngcontent-ueg-c80>สถานภาพสมรส
+                                                                        </h5> 
+                                                                    </div>
+                                                                    <div _ngcontent-ueg-c80 class="col-lg-8 col-md-8 col-sm-8 text-left"> โสด </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <h4 class="heading-withline">ข้อมูลบิดา/มารดา</h4>
+
+                                                        <div _ngcontent-ueg-c80 class="row">
+                                                            <div _ngcontent-ueg-c80 class="col-lg-6 col-md-6 col-sm-6">
+                                                                <div _ngcontent-ueg-c80 class="row">
+                                                                    <div _ngcontent-ueg-c8- class="col-lg-4 col-md-4 col-sm-4 ">
+                                                                        <h5 _ngcontent-ueg-c80>บิดา
+                                                                        </h5> 
+                                                                    </div>
+                                                                    <div _ngcontent-ueg-c80 class="col-lg-8 col-md-8 col-sm-8 text-left"> อัครพล อุดมอิอิ <span _ngcontent-ueg-c80 class="ng-star-inserted">(อายุ 60)</span> 
+                                                                     (มีชีวิตอยู่) </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div _ngcontent-ueg-c80 class="row">
+                                                            <div _ngcontent-ueg-c80 class="col-lg-6 col-md-6 col-sm-6">
+                                                                <div _ngcontent-ueg-c80 class="row">
+                                                                    <div _ngcontent-ueg-c8- class="col-lg-4 col-md-4 col-sm-4 ">
+                                                                        <h5 _ngcontent-ueg-c80>มารดา
+                                                                        </h5> 
+                                                                    </div>
+                                                                    <div _ngcontent-ueg-c80 class="col-lg-8 col-md-8 col-sm-8 text-left"> ลิลลี่ อุดมอิอิ <span _ngcontent-ueg-c80 class="ng-star-inserted">(อายุ 50)</span> 
+                                                                     (มีชีวิตอยู่) </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <h1 class="heading-withline"></h1>
+                                                        <h3 class="heading-withline">ประวัติการศึกษา</h3>                                             
+
+                                                        <div _ngcontent-ueg-c80 class="row">
+                                                            <div _ngcontent-ueg-c80 class="col-lg-6 col-md-6 col-sm-6">
+                                                                <div _ngcontent-ueg-c80 class="row">
+                                                                    <div _ngcontent-ueg-c8- class="col-lg-4 col-md-4 col-sm-4 ">
+                                                                        <h5 _ngcontent-ueg-c80>วุฒิการศึกษา</h5> 
+                                                                    </div>
+                                                                    <div _ngcontent-ueg-c80 class="col-lg-8 col-md-8 col-sm-8 text-left"> ปริญญาตรี </div>
+                                                                </div>
+                                                            </div>                                                         
+                                                        </div>
+
+                                                        <div _ngcontent-ueg-c80 class="row">
+                                                            <div _ngcontent-ueg-c80 class="col-lg-6 col-md-6 col-sm-6">
+                                                                <div _ngcontent-ueg-c80 class="row">
+                                                                    <div _ngcontent-ueg-c8- class="col-lg-4 col-md-4 col-sm-4 ">
+                                                                        <h5 _ngcontent-ueg-c80>สถานบันการศึกษา</h5> 
+                                                                    </div>
+                                                                    <div _ngcontent-ueg-c80 class="col-lg-8 col-md-8 col-sm-8 text-left"> รามคำแหง </div>
+                                                                </div>
+                                                            </div>
+                                                            <div _ngcontent-ueg-c80 class="col-lg-6 col-md-6 col-sm-6">
+                                                                <div _ngcontent-ueg-c80 class="row">
+                                                                    <div _ngcontent-ueg-c8- class="col-lg-4 col-md-4 col-sm-4 ">
+                                                                        <h5 _ngcontent-ueg-c80>สาขา/วิชา</h5>
+                                                                    </div>
+                                                                    <div _ngcontent-ueg-c80 class="col-lg-8 col-md-8 col-sm-8 text-left"> BA </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div _ngcontent-ueg-c80 class="row">
+                                                            <div _ngcontent-ueg-c80 class="col-lg-6 col-md-6 col-sm-6">
+                                                                <div _ngcontent-ueg-c80 class="row">
+                                                                    <div _ngcontent-ueg-c8- class="col-lg-4 col-md-4 col-sm-4 ">
+                                                                        <h5 _ngcontent-ueg-c80>ปีที่จบ</h5> 
+                                                                    </div>
+                                                                    <div _ngcontent-ueg-c80 class="col-lg-8 col-md-8 col-sm-8 text-left"> 26/08/2022 </div>
+                                                                </div>
+                                                            </div>
+                                                            <div _ngcontent-ueg-c80 class="col-lg-6 col-md-6 col-sm-6">
+                                                                <div _ngcontent-ueg-c80 class="row">
+                                                                    <div _ngcontent-ueg-c8- class="col-lg-4 col-md-4 col-sm-4 ">
+                                                                        <h5 _ngcontent-ueg-c80>เกรดเฉลี่ย</h5>
+                                                                    </div>
+                                                                    <div _ngcontent-ueg-c80 class="col-lg-8 col-md-8 col-sm-8 text-left"> 3.25 </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <h1 class="heading-withline"></h1>
+                                                        <h3 class="heading-withline">ประวัติการทำงาน</h3>
+
+                                                        <div _ngcontent-ueg-c80 class="row">
+                                                            <div _ngcontent-ueg-c80 class="col-lg-6 col-md-6 col-sm-6">
+                                                                <div _ngcontent-ueg-c80 class="row">
+                                                                    <div _ngcontent-ueg-c8- class="col-lg-4 col-md-4 col-sm-4 ">
+                                                                        <h5 _ngcontent-ueg-c80>บริษัท/หน่วยงาน</h5> 
+                                                                    </div>
+                                                                    <div _ngcontent-ueg-c80 class="col-lg-8 col-md-8 col-sm-8 text-left"> AMD </div>
+                                                                </div>
+                                                            </div>
+                                                            <div _ngcontent-ueg-c80 class="col-lg-6 col-md-6 col-sm-6">
+                                                                <div _ngcontent-ueg-c80 class="row">
+                                                                    <div _ngcontent-ueg-c8- class="col-lg-4 col-md-4 col-sm-4 ">
+                                                                        <h5 _ngcontent-ueg-c80>เบอร์ติดต่อ</h5>
+                                                                    </div>
+                                                                    <div _ngcontent-ueg-c80 class="col-lg-8 col-md-8 col-sm-8 text-left"> 0932181414 </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div _ngcontent-ueg-c80 class="row">
+                                                            <div _ngcontent-ueg-c80 class="col-lg-6 col-md-6 col-sm-6">
+                                                                <div _ngcontent-ueg-c80 class="row">
+                                                                    <div _ngcontent-ueg-c8- class="col-lg-4 col-md-4 col-sm-4 ">
+                                                                        <h5 _ngcontent-ueg-c80>ตำแหน่งเริ่มต้น</h5> 
+                                                                    </div>
+                                                                    <div _ngcontent-ueg-c80 class="col-lg-8 col-md-8 col-sm-8 text-left"> junior Engineer </div>
+                                                                </div>
+                                                            </div>
+                                                            <div _ngcontent-ueg-c80 class="col-lg-6 col-md-6 col-sm-6">
+                                                                <div _ngcontent-ueg-c80 class="row">
+                                                                    <div _ngcontent-ueg-c8- class="col-lg-4 col-md-4 col-sm-4 ">
+                                                                        <h5 _ngcontent-ueg-c80>ตำแหน่งสุดท้าย</h5>
+                                                                    </div>
+                                                                    <div _ngcontent-ueg-c80 class="col-lg-8 col-md-8 col-sm-8 text-left"> Senior Engineer </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div _ngcontent-ueg-c80 class="row">
+                                                            <div _ngcontent-ueg-c80 class="col-lg-6 col-md-6 col-sm-6">
+                                                                <div _ngcontent-ueg-c80 class="row">
+                                                                    <div _ngcontent-ueg-c8- class="col-lg-4 col-md-4 col-sm-4 ">
+                                                                        <h5 _ngcontent-ueg-c80>เริ่มงาน</h5> 
+                                                                    </div>
+                                                                    <div _ngcontent-ueg-c80 class="col-lg-8 col-md-8 col-sm-8 text-left"> 28/08/2022 </div>
+                                                                </div>
+                                                            </div>
+                                                            <div _ngcontent-ueg-c80 class="col-lg-6 col-md-6 col-sm-6">
+                                                                <div _ngcontent-ueg-c80 class="row">
+                                                                    <div _ngcontent-ueg-c8- class="col-lg-4 col-md-4 col-sm-4 ">
+                                                                        <h5 _ngcontent-ueg-c80>ออกจากงาน</h5>
+                                                                    </div>
+                                                                    <div _ngcontent-ueg-c80 class="col-lg-8 col-md-8 col-sm-8 text-left"> 26/08/2023 </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        
+                                                        <div _ngcontent-ueg-c80 class="row">
+                                                            <div _ngcontent-ueg-c80 class="col-lg-6 col-md-6 col-sm-6">
+                                                                <div _ngcontent-ueg-c80 class="row">
+                                                                    <div _ngcontent-ueg-c8- class="col-lg-4 col-md-4 col-sm-4 ">
+                                                                        <h5 _ngcontent-ueg-c80>เงินเดือนเริ่มต้น</h5> 
+                                                                    </div>
+                                                                    <div _ngcontent-ueg-c80 class="col-lg-8 col-md-8 col-sm-8 text-left"> 25,000 </div>
+                                                                </div>
+                                                            </div>
+                                                            <div _ngcontent-ueg-c80 class="col-lg-6 col-md-6 col-sm-6">
+                                                                <div _ngcontent-ueg-c80 class="row">
+                                                                    <div _ngcontent-ueg-c8- class="col-lg-4 col-md-4 col-sm-4 ">
+                                                                        <h5 _ngcontent-ueg-c80>เงินเดือนสุดท้าย</h5>
+                                                                    </div>
+                                                                    <div _ngcontent-ueg-c80 class="col-lg-8 col-md-8 col-sm-8 text-left"> 40,000 </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div _ngcontent-ueg-c80 class="row">
+                                                            <div _ngcontent-ueg-c80 class="col-lg-6 col-md-6 col-sm-6">
+                                                                <div _ngcontent-ueg-c80 class="row">
+                                                                    <div _ngcontent-ueg-c8- class="col-lg-4 col-md-4 col-sm-4 ">
+                                                                        <h5 _ngcontent-ueg-c80>หน้าที่ความรับผิดชอบ</h5> 
+                                                                    </div>
+                                                                    <div _ngcontent-ueg-c80 class="col-lg-8 col-md-8 col-sm-8 text-left"> กำกับดูแลเซฟเวอร์ของบริษัท </div>
+                                                                </div>
+                                                            </div>
+                                                            <div _ngcontent-ueg-c80 class="col-lg-6 col-md-6 col-sm-6">
+                                                                <div _ngcontent-ueg-c80 class="row">
+                                                                    <div _ngcontent-ueg-c8- class="col-lg-4 col-md-4 col-sm-4 ">
+                                                                        <h5 _ngcontent-ueg-c80>เหตุผลที่ลาออก</h5>
+                                                                    </div>
+                                                                    <div _ngcontent-ueg-c80 class="col-lg-8 col-md-8 col-sm-8 text-left"> งานเยอะ </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div _ngcontent-ueg-c80 class="row">
+                                                            <div _ngcontent-ueg-c80 class="col-lg-6 col-md-6 col-sm-6">
+                                                                <div _ngcontent-ueg-c80 class="row">
+                                                                    <div _ngcontent-ueg-c8- class="col-lg-4 col-md-4 col-sm-4 ">
+                                                                        <h5 _ngcontent-ueg-c80>สถานะการทำงาน</h5> 
+                                                                    </div>
+                                                                    <div _ngcontent-ueg-c80 class="col-lg-8 col-md-8 col-sm-8 text-left"> ยังทำงานอยู่ </div>
+                                                                </div>
+                                                            </div>                                                         
+                                                        </div>
+
+                                                        <h1 class="heading-withline"></h1>
+                                                        <h3 class="heading-withline">ความสามารถเฉพาะด้าน</h3>
+
+                                                        <div _ngcontent-ueg-c80 class="row align-items-center"> 
+                                                            <div _ngcontent-ueg-c80 class="col-lg-6 col-md-6 col-sm-12">
+                                                                <div _ngcontent-ueg-c80 class="row">
+                                                                    <div _ngcontent-ueg-c8- class="col-lg-4 col-md-4 col-sm-4 text-left">
+                                                                        <h5 _ngcontent-ueg-c80>ด้านคอมพิวเตอร์</h5> 
+                                                                    </div>
+                                                                    <div _ngcontent-ueg-c80 class="col-lg-8 col-md-8 col-sm-8 text-left"> Word,Excel,Adobe</div>
+                                                                </div>
+                                                            </div>                                                         
+                                                        </div>
+
+                                                        <div _ngcontent-ueg-c80 class="row align-items-center">
+                                                            <div _ngcontent-ueg-c80 class="col-lg-6 col-md-6 col-sm-12">
+                                                                <div _ngcontent-ueg-c80 class="row">
+                                                                    <div _ngcontent-ueg-c8- class="col-lg-4 col-md-4 col-sm-4 text-left">
+                                                                        <h5 _ngcontent-ueg-c80>ความสามารถด้านอื่น</h5> 
+                                                                    </div>
+                                                                    <div _ngcontent-ueg-c80 class="col-lg-8 col-md-8 col-sm-8 text-left"> ระเบิดภูเขาเผากระท่อมแบบหนังของอาหลอง</div>
+                                                                </div>
+                                                            </div>                                                         
+                                                        </div>
+
+                                                        <div _ngcontent-ueg-c80 class="row align-items-center">
+                                                            <div _ngcontent-ueg-c80 class="col-lg-6 col-md-6 col-sm-12">
+                                                                <div _ngcontent-ueg-c80 class="row">
+                                                                    <div _ngcontent-ueg-c8- class="col-lg-4 col-md-4 col-sm-4 text-left">
+                                                                        <h5 _ngcontent-ueg-c80>ภาษาอังกฤษ</h5> 
+                                                                    </div>
+                                                                    <div _ngcontent-ueg-c80 class="col-lg-8 col-md-8 col-sm-8 text-left"> ดีมาก </div>
+                                                                </div>
+                                                            </div>
+                                                            <div _ngcontent-ueg-c80 class="col-lg-6 col-md-6 col-sm-12">
+                                                                <div _ngcontent-ueg-c80 class="row">
+                                                                    <div _ngcontent-ueg-c8- class="col-lg-4 col-md-4 col-sm-4 text-left">
+                                                                        <h5 _ngcontent-ueg-c80>ภาษาอื่น</h5>
+                                                                    </div>
+                                                                    <div _ngcontent-ueg-c80 class="col-lg-8 col-md-8 col-sm-8 text-left"> จีน(ดี),ญี่ปุ่น(พอใช้) </div>
+                                                                </div>
+                                                            </div>                                                        
+                                                        </div>
+
+                                                        <div _ngcontent-ueg-c80 class="row align-items-center">
+                                                            <div _ngcontent-ueg-c80 class="col-lg-6 col-md-6 col-sm-12">
+                                                                <div _ngcontent-ueg-c80 class="row">
+                                                                    <div _ngcontent-ueg-c8- class="col-lg-4 col-md-4 col-sm-4 text-left">
+                                                                        <h5 _ngcontent-ueg-c80>ปฏิบัติงานต่างจังหวัดเป็นครั้งคราวได้หรือไม่</h5> 
+                                                                    </div>
+                                                                    <div _ngcontent-ueg-c80 class="col-lg-8 col-md-8 col-sm-8 text-left"> สามารถปฏิบัติงานต่างจังหวัดได้
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div _ngcontent-ueg-c80 class="col-lg-6 col-md-6 col-sm-12">
+                                                                <div _ngcontent-ueg-c80 class="row">
+                                                                    <div _ngcontent-ueg-c8- class="col-lg-4 col-md-4 col-sm-4 text-left">
+                                                                        <h5 _ngcontent-ueg-c80>ด้านการขับขี่</h5>
+                                                                    </div>
+                                                                    <div _ngcontent-ueg-c80 class="col-lg-8 col-md-8 col-sm-8 text-left"> มีใบขับขี่ </div>
+                                                                </div>
+                                                            </div>                                                        
+                                                        </div>
+
+                                                        <div _ngcontent-ueg-c80 class="row align-items-center">
+                                                            <div _ngcontent-ueg-c80 class="col-lg-6 col-md-6 col-sm-12">
+                                                                <div _ngcontent-ueg-c80 class="row">
+                                                                    <div _ngcontent-ueg-c8- class="col-lg-4 col-md-4 col-sm-6 text-left">
+                                                                        <h5 _ngcontent-ueg-c80>คุณมีโรคประจำตัวหรือไม่</h5> 
+                                                                    </div>
+                                                                    <div _ngcontent-ueg-c80 class="col-lg-8 col-md-8 col-sm-8 text-left"> ไม่มีโรคประจำตัว </div>
+                                                                </div>
+                                                            </div>                                                             
+                                                        </div>
+
+                                                        <div _ngcontent-ueg-c80 class="row align-items-center">
+                                                            <div _ngcontent-ueg-c80 class="col-lg-6 col-md-6 col-sm-12">
+                                                                <div _ngcontent-ueg-c80 class="row">
+                                                                    <div _ngcontent-ueg-c8- class="col-lg-4 col-md-4 col-sm-6 text-left">
+                                                                        <h5 _ngcontent-ueg-c80>คุณเคยทำผิดกฎหมาย/มีประวัติทำผิดกฎหมายหรือไม่</h5> 
+                                                                    </div>
+                                                                    <div _ngcontent-ueg-c80 class="col-lg-8 col-md-8 col-sm-8 text-left"> ไม่เคย </div>
+                                                                </div>
+                                                            </div>                                                             
+                                                        </div>
+
+                                                        <div _ngcontent-ueg-c80 class="row align-items-center">
+                                                            <div _ngcontent-ueg-c80 class="col-lg-6 col-md-6 col-sm-12">
+                                                                <div _ngcontent-ueg-c80 class="row">
+                                                                    <div _ngcontent-ueg-c8- class="col-lg-4 col-md-4 col-sm-6 text-left">
+                                                                        <h5 _ngcontent-ueg-c80>คุณเคยเสพยาเสพติดหรือยุ่งเกี่ยวกับยาเสพติดให้โทษหรือไม่</h5> 
+                                                                    </div>
+                                                                    <div _ngcontent-ueg-c80 class="col-lg-8 col-md-8 col-sm-8 text-left"> ไม่เคย </div>
+                                                                </div>
+                                                            </div>                                                             
+                                                        </div>
+
+                                                        <div _ngcontent-ueg-c80 class="row align-items-center">
+                                                            <div _ngcontent-ueg-c80 class="col-lg-6 col-md-6 col-sm-12">
+                                                                <div _ngcontent-ueg-c80 class="row">
+                                                                    <div _ngcontent-ueg-c8- class="col-lg-4 col-md-4 col-sm-6 text-left">
+                                                                        <h5 _ngcontent-ueg-c80>คุณเคยเป็นพนักงานของ Jasmine Group/TT&T/Mono หรือไม่</h5> 
+                                                                    </div>
+                                                                    <div _ngcontent-ueg-c80 class="col-lg-8 col-md-8 col-sm-8 text-left"> ไม่เคย </div>
+                                                                </div>
+                                                            </div>                                                             
+                                                        </div>
+
+                                                        <div _ngcontent-ueg-c80 class="row align-items-center">
+                                                            <div _ngcontent-ueg-c80 class="col-lg-6 col-md-6 col-sm-12">
+                                                                <div _ngcontent-ueg-c80 class="row">
+                                                                    <div _ngcontent-ueg-c8- class="col-lg-4 col-md-4 col-sm-6 text-left">
+                                                                        <h5 _ngcontent-ueg-c80>คุณรู้จักใครที่ทำงานใน Jasmine Group หรือไม่</h5> 
+                                                                    </div>
+                                                                    <div _ngcontent-ueg-c80 class="col-lg-8 col-md-8 col-sm-8 text-left"> ไม่รู้จัก </div>
+                                                                </div>
+                                                            </div>                                                             
+                                                        </div>
+
+                                                        <h3 class="heading-withline">หลักสูตร</h3>
+
+                                                        <div _ngcontent-ueg-c80 class="row">
+                                                            <div _ngcontent-ueg-c80 class="col-lg-6 col-md-6 col-sm-6">
+                                                                <div _ngcontent-ueg-c80 class="row">
+                                                                    <div _ngcontent-ueg-c8- class="col-lg-4 col-md-4 col-sm-4 ">
+                                                                        <h5 _ngcontent-ueg-c80>ชื่อหลักสูตร</h5> 
+                                                                    </div>
+                                                                    <div _ngcontent-ueg-c80 class="col-lg-8 col-md-8 col-sm-8 text-left"> CoronaVirus2019 </div>
+                                                                </div>
+                                                            </div>                                                          
+                                                        </div>
+
+                                                        <div _ngcontent-ueg-c80 class="row">
+                                                            <div _ngcontent-ueg-c80 class="col-lg-6 col-md-6 col-sm-6">
+                                                                <div _ngcontent-ueg-c80 class="row">
+                                                                    <div _ngcontent-ueg-c8- class="col-lg-4 col-md-4 col-sm-4 ">
+                                                                        <h5 _ngcontent-ueg-c80>สถาบันที่จัด</h5> 
+                                                                    </div>
+                                                                    <div _ngcontent-ueg-c80 class="col-lg-8 col-md-8 col-sm-8 text-left"> ทำเนียบขาว </div>
+                                                                </div>
+                                                            </div>                                                          
+                                                        </div>
+
+                                                        <div _ngcontent-ueg-c80 class="row">
+                                                            <div _ngcontent-ueg-c80 class="col-lg-6 col-md-6 col-sm-6">
+                                                                <div _ngcontent-ueg-c80 class="row">
+                                                                    <div _ngcontent-ueg-c8- class="col-lg-4 col-md-4 col-sm-4 ">
+                                                                        <h5 _ngcontent-ueg-c80>ปีที่เข้ารับอบรม</h5> 
+                                                                    </div>
+                                                                    <div _ngcontent-ueg-c80 class="col-lg-8 col-md-8 col-sm-8 text-left"> 2021 </div>
+                                                                </div>
+                                                            </div>
+                                                            <div _ngcontent-ueg-c80 class="col-lg-6 col-md-6 col-sm-6">
+                                                                <div _ngcontent-ueg-c80 class="row">
+                                                                    <div _ngcontent-ueg-c8- class="col-lg-4 col-md-4 col-sm-4 ">
+                                                                        <h5 _ngcontent-ueg-c80>จำนวนวัน</h5>
+                                                                    </div>
+                                                                    <div _ngcontent-ueg-c80 class="col-lg-8 col-md-8 col-sm-8 text-left"> 3 </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <h1 class="heading-withline"></h1>
+                                                        <h3 class="heading-withline">บุคคลอ้างอิง</h3>
+
+                                                        <div _ngcontent-ueg-c80 class="row">
+                                                            <div _ngcontent-ueg-c80 class="col-lg-6 col-md-6 col-sm-6">
+                                                                <div _ngcontent-ueg-c80 class="row">
+                                                                    <div _ngcontent-ueg-c8- class="col-lg-4 col-md-4 col-sm-4 ">
+                                                                        <h5 _ngcontent-ueg-c80>ชื่อ-นามสกุล</h5> 
+                                                                    </div>
+                                                                    <div _ngcontent-ueg-c80 class="col-lg-8 col-md-8 col-sm-8 text-left"> กรงจี๋ หนีกรงจักร </div>
+                                                                </div>
+                                                            </div>                                                          
+                                                        </div>
+
+                                                        <div _ngcontent-ueg-c80 class="row">
+                                                            <div _ngcontent-ueg-c80 class="col-lg-6 col-md-6 col-sm-6">
+                                                                <div _ngcontent-ueg-c80 class="row">
+                                                                    <div _ngcontent-ueg-c8- class="col-lg-4 col-md-4 col-sm-4 ">
+                                                                        <h5 _ngcontent-ueg-c80>สถานที่ทำงาน</h5> 
+                                                                    </div>
+                                                                    <div _ngcontent-ueg-c80 class="col-lg-8 col-md-8 col-sm-8 text-left"> วัดเส้าหลิน </div>
+                                                                </div>
+                                                            </div>                                                          
+                                                        </div>
+
+                                                        <div _ngcontent-ueg-c80 class="row">
+                                                            <div _ngcontent-ueg-c80 class="col-lg-6 col-md-6 col-sm-6">
+                                                                <div _ngcontent-ueg-c80 class="row">
+                                                                    <div _ngcontent-ueg-c8- class="col-lg-4 col-md-4 col-sm-4 ">
+                                                                        <h5 _ngcontent-ueg-c80>อาชีพ</h5> 
+                                                                    </div>
+                                                                    <div _ngcontent-ueg-c80 class="col-lg-8 col-md-8 col-sm-8 text-left"> หลวงจีนกวาดลาน </div>
+                                                                </div>
+                                                            </div>
+                                                            <div _ngcontent-ueg-c80 class="col-lg-6 col-md-6 col-sm-6">
+                                                                <div _ngcontent-ueg-c80 class="row">
+                                                                    <div _ngcontent-ueg-c8- class="col-lg-4 col-md-4 col-sm-4 ">
+                                                                        <h5 _ngcontent-ueg-c80>เบอร์โทรศัพท์</h5>
+                                                                    </div>
+                                                                    <div _ngcontent-ueg-c80 class="col-lg-8 col-md-8 col-sm-8 text-left"> ตอง9 </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div _ngcontent-ueg-c80 class="row">
+
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <ul class="pager wizard twitter-bs-wizard-pager-link">
+                                            <li class="previous"><a href="#">Previous</a></li>
+                                            <li class="next"><a href="#">Next</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end row -->
+
+                </div> <!-- container-fluid -->
+            </div>
+            <!-- End Page-content -->
+        </div>
+        <!-- end main content-->
+    </div>
+    <!-- END layout-wrapper -->
+
+    <!-- JAVASCRIPT -->
+    <script src="assets_form/libs/jquery/jquery.min.js"></script>
+    <script src="assets_form/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets_form/libs/metismenu/metisMenu.min.js"></script>
+    <script src="assets_form/libs/simplebar/simplebar.min.js"></script>
+    <script src="assets_form/libs/node-waves/waves.min.js"></script>
+
+    <!-- twitter-bootstrap-wizard js -->
+    <script src="assets_form/libs/twitter-bootstrap-wizard/jquery.bootstrap.wizard.min.js"></script>
+
+    <script src="assets_form/libs/twitter-bootstrap-wizard/prettify.js"></script>
+
+    <!-- form wizard init -->
+    <!-- <script src="assets_form/js/pages/form-wizard.init.js"></script> -->
+
+    <script src="assets_form/js/app.js"></script>
+
+</body>
+
+</html>
+
+<style>
+    .main-content {
+        margin-left: 0px;
+        overflow: hidden;
+    }
+
+    .page-content {
+        padding: calc(70px + 24px) calc(50px / 2) 60px calc(50px / 2);
+    }
+
+    .heading-withline {
+        border-bottom: 1.5px solid #e3e3e3;
+        padding-bottom: 16px;
+        margin-bottom: 32px;
+        box-sizing: border-box;
+    }
+
+    .twitter-bs-wizard-tab-content {
+        padding: 24px 24px 0px 24px;
+        min-height: 262px;
+    }
+
+    .col-lg-6 {
+        margin-bottom: 16px;
+    }
+
+    label {
+        font-size: 16px;
+    }
+
+    @media (max-width: 576px){
+        .text-left{
+            margin-bottom: 16px;
+        }
+    }
+
+    .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        align-content: center;
+        flex-direction: row;
+        align-items: center;
+    }
+
+</style>
+
+<script>
+    $(document).ready(function () {
+        $("#basic-pills-wizard").bootstrapWizard({
+            tabClass: "nav nav-pills nav-justified",
+        }),
+            $("#progrss-wizard").bootstrapWizard({
+                onTabShow: function (a, i, r) {
+                    var s = (r + 1) / i.find("li").length * 100;
+                    $("#progrss-wizard").find(".progress-bar").css({ width: s + "%" })
+                },
+                onNext: function (a, i, r) {
+                    console.log(r);
+                },
+                onPrevious: function (a, i, r) {
+                    console.log(r);
+                }
+            })
+    });
+</script>
